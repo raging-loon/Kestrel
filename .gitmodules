@@ -1,0 +1,3 @@
+[submodule "libkds"]
+	path = libkds
+	url = https://github.com/raging-loon/libkds
