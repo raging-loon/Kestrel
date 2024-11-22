@@ -16,6 +16,8 @@ option(ENABLE_TESTS "Enable Unit Testing" OFF)
 
 project("kestrel")
 
+include(dep.cmake)
+
 add_subdirectory(libkds)
 add_subdirectory(sensor)
 

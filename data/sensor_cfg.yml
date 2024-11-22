@@ -1,0 +1,25 @@
+#                              #
+# Kestrel Sensor Configuration #
+#                              #
+
+#####################################
+###### Interface Configuration ######
+#####################################
+
+## 
+## Interface configuration relies on data source configuration 
+## You can configure these data sources by simply listing fields:
+## 
+## interfaces:
+##  - myInterface
+##      source: my_data_source
+##      field: myField
+## 
+## 
+---
+interfaces:
+  - eth0:
+      source: pcap
+      ipaddress: 192.168.0.1/24
+  - wlan0:
+    
