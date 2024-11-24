@@ -1,0 +1,7 @@
+#ifndef SENSOR_COLLETOR_H_
+#define SENSOR_COLLETOR_H_
+
+
+
+
+#endif // SENSOR_COLLETOR_H_

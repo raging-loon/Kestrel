@@ -19,7 +19,11 @@
 ---
 interfaces:
   - eth0:
-      source: pcap
+      io_policy: default_pcap
       ipaddress: 192.168.0.1/24
-  - wlan0:
-    
+---
+io_policies:
+  - default_pcap:
+      source: pcap
+      # analyzers: built_in
+      #   initial: ethernet

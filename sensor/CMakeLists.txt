@@ -3,6 +3,7 @@ project(kestrel-sensor VERSION 0.1)
 
 add_executable(kestrel-sensor 
     main.cpp
+    DataSource.cpp
 )
 target_include_directories(
 kestrel-sensor 
